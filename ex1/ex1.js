@@ -23,5 +23,7 @@ function jouer()
         a=window.prompt("voulez vous réésseyer? 1 si oui 0 sinon :")
         if (a==1)
         jouer();
+        else
+        window.location.href = "../index.html";
 }
 jouer();
