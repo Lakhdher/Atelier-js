@@ -1,0 +1,73 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("81-814842_full-page-background-image-for-website.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 5%;
+    
+}
+
+#css
+{
+    height: 400px;
+    width: 300px;
+}
+
+#html
+{
+    height: 400px;
+    width: 300px;
+}
+
+.boutton
+{
+    background-color: #219f94;
+    padding: 20px 30px;
+    border-style: solid;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.boutton:hover
+{
+    background:  rgb(37, 37, 139);
+    text-decoration: none;
+    color: white;
+}
+
+
+#logo
+{
+    height: 200px;
+    width: 200px;
+    margin-left: 89%;
+    margin-top: 8%;
+}
+
+h1
+{
+    font-size: x-large;
+    letter-spacing: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container1
+{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    height:150px
+}
